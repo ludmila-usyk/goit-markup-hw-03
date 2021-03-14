@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot');
+    src: local(''),
+        url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'),
+        url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v20-latin_cyrillic-500.eot');
+    src: local(''),
+        url('../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'),
+        url('../fonts/roboto-v20-latin_cyrillic-500.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v20-latin_cyrillic-700.eot');
+    src: local(''),
+        url('../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'),
+        url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v20-latin_cyrillic-900.eot');
+    src: local(''),
+        url('../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin_cyrillic-900.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin_cyrillic-900.woff') format('woff'),
+        url('../fonts/roboto-v20-latin_cyrillic-900.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg');
+}
+
+:root {
+    --white-color: white;
+    --accent-color: #2196F3;
+    --grey-light-color: #757575;
+    --bg-color: #2F303A;
+    --black-color: #212121;
+    --button-color: #F5F4FA;
+ }
+
+body {
+    background-color: var(--white-color);
+    font-family: 'Roboto';
+    
+}
+a {
+    text-decoration: none;
+}
+.logo-page {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.hidden {
+    display: none;
+}
+.footer {
+    background-color: var(--bg-color);
+}
+button:hover {
+    background-color: var(--accent-color);
+     cursor: pointer;
+     color: var(--button-color);
+}
+.hero {
+    background: var(--bg-color);
+}
+.logo {
+     color: var(--white-color);
+}
+.logo-heder {
+    color: var(--black-color);
+}
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+.portfolio-p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--grey-light-color);
+    letter-spacing: 0.03em;
+}
+.mail-tell {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--grey-light-color);
+}
+.hero-team {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.advantage {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-color)
+}
+.advantage-iteam {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--grey-light-color);
+}
+.occupation {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.team {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--grey-light-color);
+}
+.adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.mail-tell {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--grey-light-color);
+}
+.mail-tell:hover,
+.mail-tell:focus {
+    color: var(--accent-color);
+}
+.header-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+    font-family: Roboto;
+}
+.header-nav:hover,
+.header-nav:focus {
+    color: var(--accent-color);
+}
+.main-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    color: var(--button-color);
+    background: var(--accent-color);
+}
+.button-gallery {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    font-family: Roboto;
+}
+.occupation-part {
+    background-color: var(--button-color);
+}
