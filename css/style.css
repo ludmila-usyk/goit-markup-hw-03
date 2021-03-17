@@ -4,7 +4,7 @@ html {box-sizing: border-box;}
 *::after {box-sizing: inherit;}
 
 
-@font-face {
+/* @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -15,7 +15,7 @@ html {box-sizing: border-box;}
         url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'),
         url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'),
         url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg');
-}
+} */
 
 @font-face {
     font-family: 'Roboto';
@@ -30,7 +30,7 @@ html {box-sizing: border-box;}
         url('../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto') format('svg');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -41,9 +41,9 @@ html {box-sizing: border-box;}
         url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'),
         url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'),
         url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg');
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -54,7 +54,7 @@ html {box-sizing: border-box;}
         url('../fonts/roboto-v20-latin_cyrillic-900.woff') format('woff'),
         url('../fonts/roboto-v20-latin_cyrillic-900.ttf') format('truetype'),
         url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg');
-}
+} */
 
 :root {
     --white-color: white;
@@ -259,3 +259,8 @@ h1,
 h2,
 h3,
 p {margin-top: 0; margin-bottom: 0;}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
