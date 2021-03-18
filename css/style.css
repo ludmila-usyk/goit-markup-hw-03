@@ -81,16 +81,16 @@ a {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    width: 700px;
 }
 .hidden {
     display: none;
 }
 .footer {
     background-color: var(--bg-color);
-    height: 252px;
-    width: 1600px;
     }
-button:hover {
+
+    button:hover {
     background-color: var(--accent-color);
      cursor: pointer;
      color: var(--button-color);
@@ -232,8 +232,18 @@ li {
     font-size: 16px;
     line-height: 1.86;
     letter-spacing: 0.06em;
+    min-width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px 10px 32px;
     color: var(--button-color);
     background: var(--accent-color);
+    box-sizing: border-box;
+}
+.header {
+    border-bottom: 1px solid #ECECEC;
 }
 .button-gallery {
     font-style: normal;
@@ -247,12 +257,20 @@ li {
 .occupation-part {
     background-color: var(--button-color);
 }
+.s-link {
+      color: var(--accent-color);
+}
 
+.link {
+  display: flex;
+  align-items: center;
+}
 .conteiner {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
