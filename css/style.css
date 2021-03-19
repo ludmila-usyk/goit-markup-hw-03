@@ -81,8 +81,9 @@ a {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    width: 700px;
-}
+    margin-right: 93px;
+    }
+
 .hidden {
     display: none;
 }
@@ -302,6 +303,9 @@ li {
 .gallery {
     display: flex;
     justify-content: center;
+}
+.gallery:not(:last-child) {
+    margin-right: 30px;
 }
 
 .site-nav-item:not(:last-child) {
