@@ -165,17 +165,18 @@ li {
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
 }
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .occupation {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--black-color);
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 94px;
 }
 .team {
     font-family: Roboto;
@@ -203,6 +204,8 @@ li {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--white-color);
+    padding-top: 20px;
+    padding-bottom: 9px;
 }
 .mail-tell {
     font-family: Roboto;
@@ -272,10 +275,12 @@ li {
     letter-spacing: 0.03em;
     border: none;
     border-radius: 4px;
+    padding: 6px 22px 6px 22px;
     background-color: var(--button-color);
 }
 .occupation-part {
     background-color: var(--button-color);
+    padding: 94px 0 94px 0;
 }
 .s-link {
     color: var(--accent-color);
@@ -296,6 +301,7 @@ li {
 .site-nav {
     display: flex;
     }
+
 .site-nav-item {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -323,6 +329,8 @@ li {
 .our-works {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .gallery:not(:last-child) {
@@ -331,6 +339,10 @@ li {
 
 .site-nav-item:not(:last-child) {
     margin-right: 50px;
+}
+
+.main-li:not(:last-child) {
+    margin-right: 30px;
 }
 
 h1,
@@ -342,14 +354,14 @@ ul {
     padding: 0;
     margin: 0;
 }
-.cards-list {
-    display: flex;
-    flex-wrap: wrap;
-}
 .team-item {
 display: flex;
 flex-wrap: wrap;
 }
 .team-item-grid:not(:last-child) {
     margin-right: 30px;
+}
+.team-list {
+    margin: 0;
+    padding: 6px 22px 6px 22px;
 }
