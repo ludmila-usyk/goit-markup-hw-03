@@ -123,6 +123,7 @@ li {
     line-height: 1.87;
     color: var(--grey-light-color);
     letter-spacing: 0.03em;
+    
 }
 .mail-tell {
     font-family: Roboto;
@@ -356,11 +357,14 @@ li {
     margin-right: 30px;
 }
 .team-item-list {
-    /* width: calc((100% - 60px) / 3); */
+    width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+}
+.team-item-list:nth-child(3n) {
+    margin-right: 0;
 }
 
 h1,
