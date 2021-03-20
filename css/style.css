@@ -113,6 +113,10 @@ li {
     list-style-type: none;
     /* Убираем маркеры */
 }
+.portfolio-items {
+    margin: 20px 0 4px 0;
+}
+
 .portfolio-p {
     font-weight: normal;
     font-size: 16px;
@@ -154,7 +158,8 @@ li {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--black-color)
+    color: var(--black-color);
+    margin-bottom: 10px;
 }
 .advantage-iteam {
     font-family: Roboto;
@@ -164,7 +169,8 @@ li {
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
-}
+    text-align: justify;
+   }
 .work {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -186,6 +192,9 @@ li {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .position {
     font-family: Roboto;
@@ -195,6 +204,8 @@ li {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
+    margin-bottom: 30px;
+    text-align: center;
 }
 .adress {
     font-family: Roboto;
@@ -344,6 +355,13 @@ li {
 .main-li:not(:last-child) {
     margin-right: 30px;
 }
+.team-item-list {
+    /* width: calc((100% - 60px) / 3); */
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
 
 h1,
 h2,
@@ -361,7 +379,17 @@ flex-wrap: wrap;
 .team-item-grid:not(:last-child) {
     margin-right: 30px;
 }
+
+.team-item-grid {    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team-list {
     margin: 0;
     padding: 6px 22px 6px 22px;
+}
+.portfolio-list {
+    padding: 20px 24px;
 }
