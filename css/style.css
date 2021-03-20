@@ -366,6 +366,9 @@ li {
 .team-item-list:nth-child(3n) {
     margin-right: 0;
 }
+.team-item-list:nth-child(-3 + n) {
+    margin-bottom: 0;
+}
 
 h1,
 h2,
