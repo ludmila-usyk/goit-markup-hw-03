@@ -3,59 +3,6 @@ html {box-sizing: border-box;}
 *::before,
 *::after {box-sizing: inherit;}
 
-
-/* @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot');
-    src: local(''),
-        url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'),
-        url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'),
-        url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'),
-        url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg');
-} */
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/roboto-v20-latin_cyrillic-500.eot');
-    src: local(''),
-        url('../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'),
-        url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'),
-        url('../fonts/roboto-v20-latin_cyrillic-500.ttf') format('truetype'),
-        url('../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto') format('svg');
-}
-
-/* @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/roboto-v20-latin_cyrillic-700.eot');
-    src: local(''),
-        url('../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'),
-        url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'),
-        url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'),
-        url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg');
-} */
-
-/* @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/roboto-v20-latin_cyrillic-900.eot');
-    src: local(''),
-        url('../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/roboto-v20-latin_cyrillic-900.woff2') format('woff2'),
-        url('../fonts/roboto-v20-latin_cyrillic-900.woff') format('woff'),
-        url('../fonts/roboto-v20-latin_cyrillic-900.ttf') format('truetype'),
-        url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg');
-} */
-
 :root {
     --white-color: white;
     --accent-color: #2196F3;
@@ -67,21 +14,18 @@ html {box-sizing: border-box;}
 
 body {
     background-color: var(--white-color);
-    font-family: 'Roboto';
     margin: 0;    
 }
 a {
     text-decoration: none;
 }
 .logo-page {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
     margin-right: 93px;
+    font-weight: bold;
     }
 
 .hidden {
@@ -114,7 +58,11 @@ li {
     /* Убираем маркеры */
 }
 .portfolio-items {
+    font-family: "Roboto", sans-serif;
     margin: 20px 0 4px 0;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-p {
@@ -126,8 +74,6 @@ li {
    
 }
 .mail-tell {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -135,8 +81,6 @@ li {
     color: var(--grey-light-color);
 }
 .hero-team {
-    font-family: Roboto;
-    font-style: normal;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -152,8 +96,6 @@ li {
     margin-bottom: 30px;
 }
 .advantage {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -185,9 +127,12 @@ li {
     text-align: center;
     margin-bottom: 50px;
 }
+.occupation .conteiner {
+    padding-top: 94px;
+    padding-left: 94px;
+}
+
 .team {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -197,10 +142,9 @@ li {
     margin-bottom: 10px;
     text-align: center;
 }
+/* .team-position { background-color: var(--white-color);} */
+
 .position {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -227,7 +171,13 @@ li {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
+.footer-bottom {
+    padding-top: 20px;
+}
+
 .mail-tell:hover,
 .mail-tell:focus {
     color: var(--accent-color);
@@ -294,6 +244,7 @@ li {
     background-color: var(--button-color);
     padding: 94px 0 94px 0;
 }
+
 .s-link {
     color: var(--accent-color);
 }
@@ -315,6 +266,9 @@ li {
     }
 
 .site-nav-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
@@ -387,11 +341,17 @@ flex-wrap: wrap;
     margin-right: 30px;
 }
 
+.team-item .team-item-occupation:not(:last-child) {
+    margin-right: 30px;
+}
+
+
 .team-item-grid {    
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
 }
 .team-list {
     margin: 0;
