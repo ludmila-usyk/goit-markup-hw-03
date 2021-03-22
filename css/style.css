@@ -26,8 +26,6 @@ a {
     color: var(--accent-color);
     margin-right: 94px;
     font-weight: bold;
-    margin-bottom: 20px;
-    padding-top: 24px;
     }
 
 .logo {
@@ -283,7 +281,7 @@ li {
     font-weight: 500;
     /* padding-top: 32px;
     padding-bottom: 32px; */
-    display: block;
+    display: flex;
     }
 
 .contact {
