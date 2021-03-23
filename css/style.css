@@ -109,6 +109,10 @@ li {
     text-transform: uppercase;
     color: var(--black-color);
     margin-bottom: 10px;
+    }
+
+.main-nav .main-li {
+    width: calc((100% - 90px) / 4);
 }
 .advantage-iteam {
     font-family: Roboto;
@@ -118,7 +122,6 @@ li {
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
-    text-align: justify;
    }
 .work {
     padding-top: 94px;
@@ -181,9 +184,14 @@ li {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
+    /* padding-top: 32px;
+    padding-bottom: 32px; */
+}
+.site-nav-item .mail-tell {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .footer-bottom {
     margin-bottom: 9px;
 }
