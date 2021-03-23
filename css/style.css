@@ -26,6 +26,7 @@ a {
     color: var(--accent-color);
     margin-right: 94px;
     font-weight: bold;
+    display: block;
     }
 
 .logo {
@@ -64,7 +65,7 @@ li {
     font-family: "Roboto", sans-serif;
     margin: 0 0 4px 0;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.03em;
 }
 
@@ -82,6 +83,7 @@ li {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--grey-light-color);
+    display: block;
 }
 .hero-team {
     font-size: 44px;
@@ -200,6 +202,7 @@ li {
     font-family: Roboto;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -288,7 +291,7 @@ li {
     display: flex;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
      margin-left: auto;
 }
