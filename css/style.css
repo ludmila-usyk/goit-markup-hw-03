@@ -324,13 +324,7 @@ li {
 .main-li:not(:last-child) {
     margin-right: 30px;
 }
-.main-li {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .tech {
     padding-bottom: 94px;
 }
