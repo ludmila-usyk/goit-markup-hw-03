@@ -10,7 +10,7 @@ html {box-sizing: border-box;}
     --bg-color: #2F303A;
     --black-color: #212121;
     --button-color: #F5F4FA;
- }
+}
 
 body {
     background-color: var(--white-color);
@@ -27,11 +27,13 @@ a {
     margin-right: 94px;
     font-weight: bold;
     display: block;
-    }
+    font-family: Raleway;
+    font-style: normal;
+}
 
-.logo {
-        margin-bottom: 20px;
-    }
+.footer .logo-page {
+    margin-bottom: 20px;
+}
 
 .hidden {
     display: none;
@@ -40,7 +42,7 @@ a {
     background-color: var(--bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    }
+}
 
     button:hover {
     background-color: var(--accent-color);
@@ -51,6 +53,7 @@ a {
     background: var(--bg-color);
     height: 600px;
 }
+
 .logo {
      color: var(--white-color);
 }
@@ -75,7 +78,6 @@ li {
     line-height: 1.87;
     color: var(--grey-light-color);
     letter-spacing: 0.03em;
-   
 }
 .mail-tell {
     font-weight: 500;
@@ -85,6 +87,7 @@ li {
     color: var(--grey-light-color);
     display: block;
 }
+
 .hero-team {
     font-size: 44px;
     line-height: 1.36;
@@ -109,7 +112,7 @@ li {
     text-transform: uppercase;
     color: var(--black-color);
     margin-bottom: 10px;
-    }
+}
 
 .main-nav .main-li {
     width: calc((100% - 90px) / 4);
@@ -122,7 +125,7 @@ li {
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
-   }
+}
 .work {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -151,7 +154,6 @@ li {
     margin-bottom: 10px;
     text-align: center;
 }
-/* .team-position { background-color: var(--white-color);} */
 
 .position {
     font-size: 16px;
@@ -184,8 +186,6 @@ li {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
 }
 .site-nav-item .mail-tell {
     padding-top: 32px;
@@ -266,10 +266,6 @@ li {
     padding: 94px 0 94px 0;
 }
 
-.s-link {
-    color: var(--accent-color);
-}
-
 .link {
     display: flex;
     align-items: center;
@@ -290,8 +286,6 @@ li {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
     display: flex;
     }
 
@@ -314,17 +308,13 @@ li {
     margin-bottom: 50px;
 }
 
+
 .our-works {
     display: flex;
     flex-wrap: wrap;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-.gallery:not(:last-child) {
-    margin-right: 30px;
-}
-
 .site-nav-item:not(:last-child) {
     margin-right: 50px;
 }
